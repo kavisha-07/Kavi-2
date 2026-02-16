@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 155, 170);
+}
+
+.style{
+    width: 1370px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(106, 102, 102);
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 100px;  
+    font-weight: bold;
+    font-family: monospace;
+}
+
+nav{
+    margin-top: -580px;
+    height: 80px;
+    margin-left: 200px;
+}
+
+nav a:hover{
+    color: rgb(65, 63, 63);
+    text-decoration: underline;
+}
+
+nav .active{
+    color: black;
+    text-decoration: underline;
+}
+
+nav span{
+    background-color: rgb(107, 95, 101);
+    color: white;
+    padding: 4px 19px;
+    margin-left: 970px;
+    border-radius: 10px;
+}
+   
+nav span:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    width: 120px;
+    height: 140px;
+    margin-left: 100px;
+    margin-top: -75px;
+    border-radius: 75px;
+}
+
+h1{
+    margin-top: -60px;
+    text-align: center;
+    color: rgb(223, 66, 92);
+    font-size: 35px;
+}
+
+form {
+    margin-left: 520px;
+}
+
+form td{
+    padding: 15px;
+}
+
+form input{
+    margin-left: 45px;
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+form button{
+   border: 2px solid black;
+   width: 300px;
+   height: 40px;
+   margin-left: 70px;
+   border-radius: 10px;
+   font-size: 20px;
+   background-color:  rgb(246, 155, 170);
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color:  rgb(241, 66, 95);
+    color: white;
+    transform: scale(1.1);
+}
+
+h2{
+    text-align: center;
+    color: rgb(255, 3, 45);
+}
+
+h3{
+    text-align: center;
+    color: rgb(223, 66, 92);
+    font-size: 35px;
+}
+
+.icon{
+    font-size:30px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 45px;
+    width: 420px;
+    margin-left: 590px;
+    text-decoration: none;
+    color: black;
+}
+
+.icon span{
+    color:  rgb(241, 5, 45);
+    font-weight: 600;
+}
+
+
+/* phone */
+
+@media (min-width: 310px) and (max-width: 480px) {
+    
+    body{
+        background-color: rgb(246, 155, 170);
+    }
+
+    .style{
+        width: 328px;
+        height: 645px;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(106, 102, 102);
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    nav a{
+        color: gray;
+        text-decoration: none;
+        font-size: 13.5px;
+        padding-left: 6px;  
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    nav{
+        margin-top: -620px;
+        height: 80px;
+        margin-left: 84px;
+    }
+
+    nav a:hover{
+        color: rgb(65, 63, 63);
+        text-decoration: underline;
+    }
+
+    nav .active{
+        color: black;
+        text-decoration: underline;
+    }
+
+    nav span{
+        background-color: rgb(107, 95, 101);
+        color: white;
+        margin-left: 140px;
+        border-radius: 10px;
+
+    }
+    
+    nav span:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 80px;
+        margin-left: 25px;
+        margin-top: -205px;
+        margin-bottom: 20px;
+        border-radius: 75px;
+    }
+
+    h1{
+        margin-top: -25px;
+        text-align: center;
+        color: rgb(223, 66, 92);
+        font-size: 25px;
+    }
+
+    form {
+        margin-left: -4px;
+        margin-top: 20px;
+    }
+
+    form td{
+        padding: 15px;
+    }
+
+    form input{
+        margin-left: 29px;
+        text-align: center;
+        width: 270px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    form button{
+    border: 2px solid black;
+    width: 240px;
+    height: 40px;
+    margin-left: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:  rgb(246, 155, 170);
+    }
+
+    form button:hover{
+        cursor: pointer;
+        background-color:  rgb(241, 66, 95);
+        color: white;
+        transform: scale(1.1);
+    }
+
+    h2{
+        text-align: center;
+        color: rgb(255, 3, 45);
+    }
+
+    h3{
+        text-align: center;
+        color: rgb(223, 66, 92);
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .icon{
+        font-size: 22px;
+        margin-left: 56px;
+        border: solid 2px black;
+        border-radius: 10px;
+        height: 45px;
+        width: 420px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .icon span{
+        color:  rgb(241, 5, 45);
+        font-weight: 600;
+    }
+
+}
+
+
+/* tab */
+
+@media (min-width: 501px) and (max-width: 900px){
+    
+    body{
+        background-color: rgb(246, 155, 170);
+    }
+
+    .style{
+        width: 850px;
+        height: 600px;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(106, 102, 102);
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+        
+    nav a{
+        color: gray;
+        text-decoration: none;
+        font-size: 23px;
+        padding-left: 50px;  
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    nav{
+        margin-top: -580px;
+        height: 80px;
+        margin-left: 180px;
+    }
+
+    nav a:hover{
+        color: rgb(65, 63, 63);
+        text-decoration: underline;
+    }
+
+    nav .active{
+        color: black;
+        text-decoration: underline;
+    }
+
+    nav span{
+        background-color: rgb(107, 95, 101);
+        color: white;
+        padding: 4px 19px;
+        margin-left: 520px;
+        border-radius: 10px;
+    }
+    
+    nav span:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .logo img{
+        width: 110px;
+        height: 130px;
+        margin-left: 50px;
+        margin-top: -75px;
+        border-radius: 75px;
+    }
+        
+    h1{
+        margin-top: -60px;
+        text-align: center;
+        color: rgb(223, 66, 92);
+        font-size: 33px;
+    }
+
+    form {
+        margin-left: 250px;
+    }
+
+    form td{
+        padding: 15px;
+    }
+
+    form input{
+        margin-left: 25px;
+        text-align: center;
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    form button{
+    border: 2px solid black;
+    width: 300px;
+    height: 40px;
+    margin-left: 28px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:  rgb(246, 155, 170);
+    }
+
+    form button:hover{
+        cursor: pointer;
+        background-color:  rgb(241, 66, 95);
+        color: white;
+        transform: scale(1.1);
+    }
+
+    h2{
+        text-align: center;
+        color: rgb(255, 3, 45);
+    }
+
+    h3{
+        text-align: center;
+        color: rgb(223, 66, 92);
+        font-size: 33px;
+    }
+
+    .icon{
+        font-size:28px;
+        text-align: center;
+        border: solid 2px black;
+        border-radius: 10px;
+        height: 45px;
+        width: 420px;
+        margin-left: 290px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .icon span{
+        color:  rgb(241, 5, 45);
+        font-weight: 600;
+    }
+
+}
+
+

@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(246, 155, 170);
+}
+
+.style{
+    width: 1370px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(106, 102, 102);
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 100px;  
+    font-weight: bold;
+    font-family: monospace;
+}
+
+nav{
+    margin-top: -580px;
+    height: 80px;
+    margin-left: 200px;
+}
+
+nav a:hover{
+    color: rgb(65, 63, 63);
+    text-decoration: underline;
+}
+
+nav .active{
+    color: black;
+    text-decoration: underline;
+}
+
+nav span{
+    background-color: rgb(107, 95, 101);
+    color: white;
+    padding: 4px 19px;
+    margin-left: 970px;
+    border-radius: 10px;
+}
+   
+nav span:hover{
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+    width: 120px;
+    height: 140px;
+    margin-left: 100px;
+    margin-top: -75px;
+    border-radius: 75px;
+}
+
+.name img{
+    margin-top: -70px;
+    margin-left: 300px;
+    width: 500px;
+    border-radius: 70px;
+}
+
+.box{
+    width: 430px;
+    height: 360px;
+    background-color: rgb(246, 155, 170);
+    margin-left: 950px;
+    margin-top: -300px;
+}
+
+
+.img img{
+    margin-top: -300px;
+    width: 400px;
+    margin-left: 900px;
+    border: 7px white solid;
+}
+
+h1{
+    margin-left: 250px;
+    margin-top: -45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: rgb(223, 66, 92);
+}
+
+/* phone */
+
+@media (min-width: 310px) and (max-width: 480px) {
+    
+    body{
+        background-color: rgb(246, 155, 170);
+    }
+
+    .style{
+        width: 328px;
+        height: 645px;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(106, 102, 102);
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    nav a{
+        color: gray;
+        text-decoration: none;
+        font-size: 13.5px;
+        padding-left: 6px;  
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    nav{
+        margin-top: -620px;
+        height: 80px;
+        margin-left: 84px;
+    }
+
+    nav a:hover{
+        color: rgb(65, 63, 63);
+        text-decoration: underline;
+    }
+
+    nav .active{
+        color: black;
+        text-decoration: underline;
+    }
+
+    nav span{
+        background-color: rgb(107, 95, 101);
+        color: white;
+        margin-left: 140px;
+        border-radius: 10px;
+
+    }
+    
+    nav span:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 80px;
+        margin-left: 25px;
+        margin-top: -205px;
+        margin-bottom: 20px;
+        border-radius: 75px;
+    }
+
+    .name img{
+        margin-top: -10px;
+        margin-left: 35px;
+        width: 300px;
+        border-radius: 70px;
+    }
+
+    .box{
+        width: 230px;
+        height: 180px;
+        background-color: rgb(246, 155, 170);
+        margin-left: 95px;
+        margin-top: 30px;
+    }
+
+    .img img{
+        margin-top: -140px;
+        width: 250px;
+        margin-left: 35px;
+        border: 5px white solid;
+    }
+
+    h1{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 22px;
+        color: rgb(223, 66, 92);
+    }
+
+}
+
+/* tab */
+
+@media (min-width: 501px) and (max-width: 900px){
+    
+    body{
+        background-color: rgb(246, 155, 170);
+    }
+
+    .style{
+        width: 850px;
+        height: 600px;
+        background-color: white;
+        box-shadow: 10px 10px 5px rgb(106, 102, 102);
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+        
+    nav a{
+        color: gray;
+        text-decoration: none;
+        font-size: 23px;
+        padding-left: 50px;  
+        font-weight: bold;
+        font-family: monospace;
+    }
+
+    nav{
+        margin-top: -580px;
+        height: 80px;
+        margin-left: 180px;
+    }
+
+    nav a:hover{
+        color: rgb(65, 63, 63);
+        text-decoration: underline;
+    }
+
+    nav .active{
+        color: black;
+        text-decoration: underline;
+    }
+
+    nav span{
+        background-color: rgb(107, 95, 101);
+        color: white;
+        padding: 4px 19px;
+        margin-left: 520px;
+        border-radius: 10px;
+    }
+    
+    nav span:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .logo img{
+        width: 110px;
+        height: 130px;
+        margin-left: 50px;
+        margin-top: -75px;
+        border-radius: 75px;
+    }
+
+    .name img{
+        margin-top: 20px;
+        margin-left: 90px;
+        width: 350px;
+        border-radius: 70px;
+    }
+
+    .box{
+        width: 310px;
+        height: 240px;
+        background-color: rgb(246, 155, 170);
+        margin-left: 550px;
+        margin-top: -250px;
+    }
+
+
+    .img img{
+        margin-top: -200px;
+        width: 300px;
+        margin-left: 500px;
+        border: 7px white solid;
+    }
+
+    h1{
+        margin-left: 180px;
+        margin-top: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        color: rgb(223, 66, 92);
+    }
+
+}
+
+
+
+
